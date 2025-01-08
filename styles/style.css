@@ -1,0 +1,141 @@
+
+
+/* open sans font set up */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+   
+
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+header>nav>ul>li{
+    display: inline;
+    
+}
+
+/* mouse hover */
+header>nav>ul>li.xx:hover{
+    background-color: #eec09f7b;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+   
+    width: auto;
+    text-align: center;
+}
+
+header>nav>ul>li>a{
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+header>nav>p{
+    font-size: 45px;
+    font-weight: 900;
+    width: 121px;
+    height: 61px;
+}
+
+/* developper background */
+.open-sans-normal{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+  
+  
+
+    
+}
+
+
+
+/* button design */
+.btn{
+    background-color:#FD6E0A ;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 121px;
+    height: 61px;
+   
+
+}
+
+
+#p1{
+    font-size: 45px;
+    font-weight: 600;
+    width: 177px;
+    height: 61px;
+    margin-bottom: 0px;
+}
+
+#p2{
+    font-size: 85px;
+    font-weight: bold;
+    width: 498px;
+    height: 116px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+
+#p3{
+    font-size: 18px;
+    font-weight: normal;
+    width: 585px;
+    height: 60px;
+    margin-top: 0px;
+   
+}
+
+#btn-contact{
+    background-color:white ;
+    font-size: 20px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    width: 160px;
+    height: 64px;
+    margin-left: 20px;
+
+}
+
+
+main>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    background-image: url(../images/header_bg.png);
+     background-repeat: no-repeat;
+   background-position: right bottom;
+   margin-left: 200px;
+     /*height: 678px;
+   
+    background-size: contain; */
+   
+    
+   
+}
+
+
