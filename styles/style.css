@@ -193,3 +193,38 @@ main>div{
   
 }
 
+footer>section{
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.naem{
+    width: 461px;
+    height: 54px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+#message{
+
+    width: 461px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+
+
+}
+
+.footer_title{
+    margin-bottom: 50px;
+}
+
+
+
