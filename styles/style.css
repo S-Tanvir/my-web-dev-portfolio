@@ -185,3 +185,11 @@ main>div{
     border-radius: 5px;
 }
 
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+  
+}
+
